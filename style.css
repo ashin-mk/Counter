@@ -1,0 +1,37 @@
+.active{
+    background-color: cadetblue;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    border-style:none;
+    color: aliceblue;
+    box-shadow: 2px 4px 4px 2px rgb(91, 111, 112);
+    margin: 1px;
+}
+.notActive{
+        background-color: cadetblue;
+        border-radius: 50%;
+        margin: 1px;
+        height: 50px;
+        width:50px;
+        border-style:none;
+        opacity: .4;
+        color: aliceblue;
+        box-shadow: 2px 4px 4px 1.5px rgb(91, 111, 112);
+}
+.notActive:hover{
+    cursor:not-allowed;
+}
+.active:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+.counter{
+    position: relative;
+    left: 140px;
+    top: -133px;
+}
+body{
+    text-align: center;
+    background-color: azure;
+}
